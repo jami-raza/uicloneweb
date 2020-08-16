@@ -1,0 +1,15 @@
+{
+    "Printerirent":{
+        "name": "Printerirent",
+        "description":"Copier and printer machine rental"
+        
+    },
+    "Borg":{
+        "name": "Borg",
+        "description":"Profit from Quality"
+    },
+    "Digistudio":{
+        "name": "Digistudio",
+        "description":"Radio and TV commercials"
+    }
+}

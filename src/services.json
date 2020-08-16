@@ -1,0 +1,32 @@
+{
+    "Design and UI/UX":{
+        "name":"Design and UI/UX",
+        "img":"https://www.camo.ee/wp-content/uploads/2019/04/website.svg",
+        "desc":"Your website has three (!) seconds to make a lasting impression. We all know first impressions are the ones that count. So, if the visitor isn’t engaged by then, you’ve lost them. Straight to your competitor's site."
+        
+    },
+    "Web design and development":{
+        "name":"Web design and development",
+        "img":"https://www.camo.ee/wp-content/uploads/2019/04/ux.svg",
+        "desc":"Your website has to look delightful to the eye. It must be handsome. It’s your virtual business card and your sales channel."
+        
+    },
+    "Custom solutions":{
+        "name":"Custom solutions",
+        "img":"https://www.camo.ee/wp-content/uploads/2019/04/custom_solution.svg",
+        "desc":"You’re special, and so is your business. You need special features (an interactive order form, ad portal or something unique) for your site."
+        
+    },
+    "Webshops":{
+        "name":"Webshops",
+        "img":"https://www.camo.ee/wp-content/uploads/2019/04/webshop.svg",
+        "desc":"Open 24/7, your products or services only one search away from billions of people. When done right, a webshop gives you, quite literally, an opportunity to conquer the world."
+        
+    },
+    "Video animations ads":{
+        "name":"Video animations ads",
+        "img":"https://www.camo.ee/wp-content/uploads/2019/04/animation.svg",
+        "desc":"A video is the thing of today and tomorrow. It is, without a doubt, the most popular media form: it’s used in entertainment, social media, and marketing. A video will help you step up your game."
+        
+    }
+}
