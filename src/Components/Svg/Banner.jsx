@@ -1,16 +1,23 @@
 import React from "react";
+import {motion} from 'framer-motion';
 
+const svgvariaints={
+  hide:{opacity:0,},
+  show:{opacity:1,scale:[0,1],transition:{duration:5}}
+}
 
 
 function Icon() {
   return (
-    <svg
+    <motion.svg
       xmlns="http://www.w3.org/2000/svg"
       width="1920"
       height="1080"
       viewBox="0 0 1920 1080"
       style={{ width: "100%", height: "100%", }}
-
+      variants={svgvariaints}
+      initial="hide"
+      animate="show"
     
     >
       <defs>
@@ -31,13 +38,19 @@ function Icon() {
           y2="132.179"
           gradientUnits="userSpaceOnUse"
           spreadMethod="pad"
+          
+        
         >
-          <stop offset="0%" stopColor="#1F4444"></stop>
+          <motion.stop offset="0%" stopColor="#1F4444"
+          
+          ></motion.stop>
           <stop offset="50%" stopColor="#2A3E6B"></stop>
           <stop offset="100%" stopColor="#343992"></stop>
         </linearGradient>
         <clipPath id="__lottie_element_91">
-          <path d="M0 0h1920v1080H0z"></path>
+          <path d="M0 0h1920v1080H0z"
+          
+          ></path>
         </clipPath>
         <clipPath id="__lottie_element_164">
           <path d="M0 0h1920v1080H0z"></path>
@@ -768,6 +781,8 @@ function Icon() {
               display="block"
               opacity="0.13"
               transform="matrix(2.61214 0 0 2.61214 667.255 608.355)"
+              
+            
             ></path>
             <path
               fill="url(#__lottie_element_891)"
@@ -2344,12 +2359,14 @@ function Icon() {
             display="block"
             transform="translate(960 540)"
           ></path>
-          <path
+          <motion.path
             fill="#D8D8E7"
             d="M84.645 49l-3.361 24.922c-4.973 8.421-8.132 13.685-9.48 15.787-.78 1.19 4.48 3.044 4.765 2.365.145-.346.286-.629.432-.896.24-.435.496-.83.833-1.38.293-.481 3.695-5.042 10.21-13.686l3.367-26.484L84.645 49z"
             display="block"
             transform="translate(960 540)"
-          ></path>
+            animate={{opacity:[0,1,0,1],transition:{duration:2,loop:Infinity}}}
+          
+          ></motion.path>
           <path
             fill="#EFF0FA"
             d="M83.321 49.359c-1.991 8.144-1.991 14.701 0 19.67 1.991 4.969 1.372 16.953-1.861 35.952 15.753 3.642 25.366 3.527 28.84-.347.736-7.061 1.047-10.316-.877-16.445-1.922-6.131-3.518-13.946-2.926-17.689.592-3.745 2.619-14.088-2.132-18.051-4.749-3.963-4.183-2.156-6.085-4.389-1.902-2.235-3.826-3.531-4.398-5.012-.263.024-1.723.085-4.381.18-.119 1.657-.534 2.768-1.245 3.332-2.54.337-4.185 1.269-4.935 2.799z"
@@ -2964,7 +2981,7 @@ function Icon() {
           ></path>
         </g>
       </g>
-    </svg>
+    </motion.svg>
   );
 }
 

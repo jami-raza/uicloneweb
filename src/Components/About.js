@@ -1,9 +1,16 @@
 import React from 'react';
-
+import {Tweenmax, Power} from 'gsap';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 export default function About() {
-  
+  let aboutitem = useRef(null);
+  useEffect(() => {
+    console.log(aboutitem)
+  }, [])
+  return (  
+   
 
-  return (
+    
       <div className="about">
     
         

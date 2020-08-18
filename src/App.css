@@ -8,6 +8,13 @@ body{
   background: #ffffff;;
   min-height: max-content;
 }
+
+.starter.h1{
+  color: #EFF9F8;
+  background-color: #0f4848;
+  font-size: 72;
+
+}
 header{
 background: #0f4848;
 position: fixed;
@@ -63,16 +70,7 @@ header ul li a{
    
 }
 
-.header.btn {
-  position: relative;
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fff;
-  letter-spacing: 2px;
-  font-weight: 500px;
-  transition: 0.6s;
 
-}
 
 header.sticky{
   padding: 5px 100px;

@@ -10,8 +10,21 @@ import Header from './Components/Header';
 
 
 function App() {
+  const Wrapper={
+    hidden:{opacity:0},
+    visible:{opacity:1,
+    transition:{
+      delay:5,
+    }
+    }
+  }
+  const Start={
+    show:{opacity:1, duration:5},
+    hide:{opacity:0,transition:{delay:5}}
+  }
   return (
     <div>
+      
       <Header/>
       <Banner />
       <Slide2/>

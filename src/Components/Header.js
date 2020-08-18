@@ -2,9 +2,9 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import {motion } from 'framer-motion';
 const headervariants={
-    visible: { opacity: 1 ,
+    visible: { opacity: 1 
     },
-    hidden: { opacity: 0, }
+    hidden: { opacity: 0}
   }
   const logovariants={
       hidden:{
@@ -22,14 +22,31 @@ const headervariants={
     show: {
       opacity: 1,
       transition: {
-        delayChildren: 0.5
+        delayChildren: 0.5,
+        
+      },
+      hover:{
+        type:"spring",
+        stiffness:100
+
       }
     }
   }
-  
+  const buttonli={
+    hover:{
+      scale:1.5,
+      boxShadow:"0 0 8px rgb(255,255,255)",
+      color:"black"
+    }
+  }
   const livariants = {
     hidden: { opacity: 0 },
-    show: { opacity: 1 }
+    show: { opacity: 1 },
+    hover:{
+      type:"spring",
+      stiffness:100
+
+    }
   }
 
  function Header(){
@@ -51,6 +68,7 @@ const headervariants={
         variants={ulvariants}
         initial="hidden"
         animate="show"
+        whileHover="hover"
         
         >
             <motion.li variants={livariants}> <a href="#" class="">Services</a></motion.li>
@@ -58,7 +76,8 @@ const headervariants={
             <motion.li variants={livariants}> <a href="#" class="">PROJECTS</a></motion.li>
             <motion.li variants={livariants}> <a href="#" class="">BLOG</a></motion.li>
             <motion.li variants={livariants}> <a href="#" class="">ENG</a></motion.li>
-            <motion.li variants={livariants}> <a href="#" className="header btn">GET IN TOUCH</a></motion.li>
+            <motion.li variants={livariants}> <a href="#" className="">GET IN TOUCH</a></motion.li>
+           
         </motion.ul>
         
     </motion.header>
