@@ -32,4 +32,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying uses surge
-      run: surge ./build http://ui-clone-app.surge.sh/ --token ${{ secrets.UI_Clone_Web }}
+      run: surge ./build ui-clone-app.surge.sh/ --token ${{ secrets.UI_Clone_Web }}
